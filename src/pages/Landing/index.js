@@ -1,10 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container, Col, Row, Image, Card } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import Offcanvas from "react-bootstrap/Offcanvas";
-import OffNav from "../../components/OffNav/index.js";
-import MainNav from "../../components/MainNav";
-import List from "../../assets/icons/list";
+
 import goldLogo from "../../assets/images/InterstellarConstruction.png";
 import QualityCraft from "../../assets/images/QualityCraftsmanship.png";
 import "./style.css";
