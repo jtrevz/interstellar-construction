@@ -1,0 +1,26 @@
+body,
+html {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+:root {
+  --gold: #c4b395;
+  --lblue: #95bec4;
+  --blue: #7fa7ad;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&family=Mona+Sans:ital,wdth,wght@0,75..125,200..900;1,75..125,200..900&display=swap");
+
+.int-blue {
+  background-color: var(--blue);
+}
+
+.int-gold {
+  color: var(--gold);
+}
+
+.gold {
+  background-color: var(--gold);
+}

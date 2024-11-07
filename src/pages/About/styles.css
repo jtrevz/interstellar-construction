@@ -1,0 +1,122 @@
+#about {
+  animation-name: backgrounds-about;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+}
+
+.home-link {
+  font-family: "Tenor Sans";
+  color: var(--darkyellow);
+  text-transform: uppercase;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.about-content {
+  min-height: 75vh;
+}
+
+.about-header {
+  font-family: "Tenor Sans";
+  text-transform: uppercase;
+  color: var(--darkyellow);
+  font-size: 5vw;
+}
+.about-text {
+  color: #eeecde;
+  font-size: 15px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 100;
+}
+
+.btn-warning {
+  background-color: var(--darkyellow) !important;
+  border-radius: 0px !important;
+  font-family: "Tenor Sans" !important;
+  text-transform: uppercase;
+}
+.contact-button {
+  text-decoration: none;
+}
+
+img {
+  max-width: 400px;
+  margin: auto;
+}
+
+.under {
+  text-decoration: none !important;
+}
+
+.profession-titles {
+  font-family: "Tenor Sans";
+  text-transform: uppercase;
+  font-size: 1.4vw;
+  color: #eeecde;
+}
+
+#edu-title {
+  font-family: "Tenor Sans";
+  text-transform: uppercase;
+  color: var(--darkyellow);
+  font-size: 2vw;
+}
+
+p {
+  color: #eeecde;
+  font-size: 1.2vw;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 100;
+}
+
+@media screen and (min-width: 768px) {
+  .about-header {
+    font-size: 3.4vw;
+  }
+
+  .contact-button {
+    /* font-size: ; */
+    width: 190px;
+  }
+  .resume-button {
+    /* font-size: ; */
+    width: 190px !important;
+  }
+  .about-text {
+    line-height: 1.8;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .exp {
+    margin-top: 400px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about-header {
+    font-size: 5vw;
+  }
+  .home-link {
+    font-size: 15px;
+  }
+  .home-link svg {
+    height: 1.2em;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .profession-titles {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  #edu-title {
+    font-size: 20px;
+  }
+}

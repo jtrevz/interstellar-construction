@@ -1,0 +1,54 @@
+#work {
+  animation-name: backgrounds-work;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-size: cover;
+  background-position: left top;
+}
+
+@keyframes backgrounds-work {
+  0% {
+  }
+  100% {
+  }
+}
+@keyframes fade-work-text {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.wait-work-show {
+  animation: fade-work-text 5s;
+}
+
+.work-title {
+  font-family: "Tenor Sans";
+  text-transform: uppercase;
+  font-size: 6vw !important;
+  color: var(--darkyellow);
+}
+
+.project-title {
+  font-family: "Dream Avenue";
+  text-transform: uppercase;
+  font-size: 4vw;
+  color: var(--darkyellow);
+}
+
+.top-desc {
+  color: white;
+  font-family: "Tenor Sans";
+  text-transform: uppercase;
+  font-size: 2vw;
+}
